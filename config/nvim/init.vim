@@ -8,6 +8,8 @@ call plug#begin('~/.config/nvim/bundle')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'sonph/onehalf', {'rtp': 'vim/'}
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
 call plug#end()
 
 let mapleader = ','
@@ -16,10 +18,10 @@ let mapleader = ','
 syntax on
 set termguicolors
 set background=dark
-" colorscheme gruvbox
+colorscheme gruvbox
 " set t_Co=256
-set cursorline
-colorscheme onehalflight
+" set cursorline
+" colorscheme onehalflight
 let g:airline_theme='onehalfdark'
 
 " Show linenumbers
@@ -34,6 +36,7 @@ set shiftwidth=2
 set smarttab
 set expandtab
 set si
+
 "search
 set ignorecase
 set smartcase

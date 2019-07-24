@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="config/nvim/init.vim zshrc"    # list of files/folders to symlink in homedir
+files="config/nvim/init.vim zshrc .hyper.js"    # list of files/folders to symlink in homedir
 
 # change to the dotfiles directory
 echo "Changing to the $dir directory"

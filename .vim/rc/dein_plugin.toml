@@ -1,0 +1,11 @@
+[[plugins]]
+repo = 'shougo/dein.vim'
+
+[[plugins]]
+repo = 'dracula/vim'
+name = "dracula"
+merged = false
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+
